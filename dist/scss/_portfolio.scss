@@ -1,0 +1,28 @@
+.portfolio {
+    padding: 112px 0 96px;
+    background-color: #F6F6F6;
+    &_project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_foto {
+            width: 100%;
+            margin-top: 99px;
+            object-fit: cover;
+            &_47 {
+                width: 100%;
+                margin-top: 47px;
+                object-fit: cover;
+            }
+        }
+        &_text {
+            margin-top: 44px;
+            font-family: Gilroy-Medium;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+}

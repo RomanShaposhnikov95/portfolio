@@ -1,0 +1,65 @@
+.promo {
+    padding: 0 0 104px 0;
+    nav {
+        width: 100%;
+        padding: 31px 0;
+        border-bottom: 1px solid #828282;
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding-left: 0;
+            &_link{
+                text-decoration: none;
+                color: $main-color;
+                font-family: Gilroy-Bold;
+                font-size: 18px;
+                line-height: 22px;
+                &:hover {
+                    color: black;
+                }
+            }
+            .active {
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+    .subheader {
+        margin-top: 39px;
+        width: 100%;
+        min-height: 123px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        &_name {
+            width: 123px;
+            font-size: 47.3392px;
+            line-height: 59px;
+        }
+        &_adress {
+            width: 155px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_language {
+            transform: rotate(-90deg) translateY(65%);
+            height: 65px;
+            font-size: 16px;
+            line-height: 20px;
+            .eng, .centr {
+                font-weight: bold;
+            }
+            .ru {
+                color: $main-color;
+            }
+        }
+    }
+    .header_foto {
+        margin-top: 49px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.about {
+    padding: 120px 0 107px 0;
+    background-color: #F6F6F6;
+    &_text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p {
+            max-width: 485px;
+            margin-top: 17px;
+            font-size: 18px;
+            text-align: center;
+            text-align: center;
+        }
+    }
+}
